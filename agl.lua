@@ -26,8 +26,8 @@ local METERS_TO_FEET = 3.28084
 local WND_TITLE_BAR = 1 -- Standard window with title bar and background
 local WND_VISIBLE = true
 local WND_HIDDEN = false
-local WND_DEFAULT_W = 150 -- Arbitrary width before auto-sizing
-local WND_DEFAULT_H = 60 -- Arbitrary height before auto-sizing
+local WND_DEFAULT_W = 150
+local WND_DEFAULT_H = 60
 
 -- UI / ImGui Styling
 local UI_FONT_SCALE = 1.5 -- 1.0 is default size
@@ -81,4 +81,3 @@ end
 
 -- Hook into X-Plane's frame loop
 do_every_frame("Mg.on_update()")
-
