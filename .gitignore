@@ -1,0 +1,79 @@
+# Lua compiled files
+*.luac
+luac.out
+
+# ====================
+# Cross-platform hidden files
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================
+# Visual Studio Code
+# ====================
+
+.vscode/
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# ====================
+# Neovim
+# ====================
+
+# Neovim configuration (local)
+.nvim/
+.nvimrc
+.exrc
+
+# Session files
+Session.vim
+.session
+
+# Swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Undo files
+*.un~
+
+# Vim backup files
+*~
+*.swp
+*.swo
+*.bak
