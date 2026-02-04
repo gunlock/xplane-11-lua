@@ -1,7 +1,5 @@
 -- ============================================================================
 -- Above Ground Level (AGL) FlyWithLua Script
---   Exponential moving average for filtering
---   ImGui window sizing based on largest text scenario
 -- ============================================================================
 
 -- Namespace to prevent global collision
